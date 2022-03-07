@@ -1,0 +1,24 @@
+{
+  "name": "live-challenge-base",
+  "version": "1.0.0",
+  "description": "Ultimate live challenge base",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node -r ts-node/register/transpile-only src/index.ts",
+    "test-mocha": "DOTENV_CONFIG_PATH=./.env.mocha mocha --exit 'src/tests/**/*.spec.{js,ts}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ts-node": "^10.6.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.0",
+    "@types/chai": "^4.3.0",
+    "chai": "^4.3.6",
+    "mocha": "^9.2.1",
+    "typescript": "^4.6.2"
+  }
+}
