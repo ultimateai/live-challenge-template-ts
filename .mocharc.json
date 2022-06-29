@@ -1,0 +1,10 @@
+{
+    "require": [
+        "ts-node/register"
+    ],
+    "extension": ["ts","js"],
+    "exit": true,
+    "color": true,
+    "timeout": 120000,
+    "package": "./package.json"
+}

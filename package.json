@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "node -r ts-node/register/transpile-only src/index.ts",
-    "test-mocha": "DOTENV_CONFIG_PATH=./.env.mocha mocha --exit 'src/tests/**/*.spec.{js,ts}'"
+    "test-mocha": "mocha 'src/tests/**/*.spec.{js,ts}'"
   },
   "keywords": [],
   "author": "",
